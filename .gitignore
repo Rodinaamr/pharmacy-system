@@ -39,3 +39,17 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.db-shm
+*.db-wal
+# pharmacy.db # Uncomment if you want to exclude the database file
+backend/GreenPharmacy.Api/bin/
+backend/GreenPharmacy.Api/obj/
+backend/GreenPharmacy.Api/.vs/
+backend/GreenPharmacy.Api/uploads/*
+!backend/GreenPharmacy.Api/uploads/.gitkeep
